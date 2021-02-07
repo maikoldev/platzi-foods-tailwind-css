@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply transition duration-300 text-lg px-3 py-1 w-full sm:w-48 focus:outline-none;
+}
+
+.alert {
+  @apply text-lg px-3 py-2 border border-solid rounded w-full sm:w-80 mb-3 text-center;
+}
+
+.alert-neutro {
+  @apply bg-gray-100 text-gray-500 border-gray-300;
+}
+
+.alert-danger {
+  @apply bg-red-100 text-red-500 border-red-300;
+}
+
+.alert-warning {
+  @apply bg-yellow-100 text-yellow-500 border-yellow-300;
+}
+
+.alert-info {
+  @apply bg-blue-100 text-blue-500 border-blue-300;
+}
